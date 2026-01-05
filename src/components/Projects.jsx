@@ -9,21 +9,21 @@ const Projects = () => {
       description:
         "MERN stack web app that connects donors and organizations for donating clothes, books, and essentials.",
       tech: "MongoDB, Express, React, Node.js",
-      link: "#",
+      link: "https://github.com/Piyush1824/Donate_Us.git",
     },
     {
       title: "OsteoCheck: Bone Fracture Detection",
       description:
         "AI-powered medical app using CNN and ResNet models for analyzing radiology images and detecting fractures.",
       tech: "React, TensorFlow, CNN, ResNet",
-      link: "#",
+      link: "https://github.com/Piyush1824/OsteoCheck.git",
     },
     {
       title: "Face Recognition App",
       description:
         "A system that identifies and verifies individuals using facial features for security and ensuring their presence.",
       tech: "OpenCV, Python, Machine Learning",
-      link: "#",
+      link: "https://github.com/Piyush1824/faceRecog.git",
     },
   ];
 
