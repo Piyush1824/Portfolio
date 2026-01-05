@@ -1,0 +1,110 @@
+/* =====================================
+   CONTACT SECTION (Unified Blue Theme)
+   ===================================== */
+
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 0;
+  background: linear-gradient(135deg, #0a0a0a, #101820);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Title */
+.intro {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #cfcfcf;
+  margin-bottom: 50px;
+}
+
+/* Contact Card Layout */
+.contact-methods {
+  width: 90%;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+}
+
+/* Card */
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 170, 255, 0.2);
+  border-radius: 16px;
+  padding: 30px 25px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.35s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(0, 170, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.25);
+}
+
+/* Icons */
+.contact-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 10px rgba(0, 170, 255, 0.3));
+}
+
+/* Title */
+.contact-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #00aaff;
+  margin-bottom: 12px;
+}
+
+/* Button */
+.get {
+  margin-top: 12px;
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: none;
+  background: #00aaff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.get a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.get:hover {
+  background: #008bcc;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .intro {
+    font-size: 2.2rem;
+  }
+
+  .contact-card {
+    padding: 22px;
+  }
+
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
